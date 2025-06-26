@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><title>Blog</title>
+    <link rel="canonical" href="blog.html" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="Blog" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon-->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="home/css/styles.css" rel="stylesheet" />
+    
+    <style>
+        .bg-header {
+            background-color: rgba(15, 87, 251, 0.6) !important;
+            background-color: rgba(0, 0, 0, 0.6) !important;
+        }
+
+        .bg-footer {
+            --bs-bg-opacity: 1;
+            background-image: linear-gradient( #000000, #000000) !important;
+        }
+
+        .header-text-color {
+            color: #ffffff ;
+        }
+
+        .footer-text-color {
+            color: #ffffff;
+        }
+
+        .footer-text-color .navbar-brand {
+            color: #ffffff ;
+        }
+
+        .navbar-nav .active {
+            border-bottom: solid 1px #ffffff !important;
+        }
+        .top-area {
+            height: 30rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: url(banner_image.png);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+        }
+
+        .header-transparent-layer {
+            display: block;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5) !important;
+        }
+
+        .header-transparent-layer .contents {
+            padding: 2rem;
+        }
+
+        @media (min-width: 801px) {
+            .custom-position {
+                margin: 3rem auto;
+                width: 45%;
+                border-radius: 30px;
+                padding: 0;
+                margin-left: 10%;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .custom-position {
+                margin: 3rem auto;
+                width: 80%;
+                border-radius: 30px;
+                padding: 0;
+            }
+            .text-start {
+                text-align: center !important;
+            }
+        }
+        body {
+                    background-color: #f1f6f9;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(47, 95 ,165, 0.6) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #4f77b1 !important;
+                    color:  #ffffff !important;
+                    border: 1px solid #4f77b1 !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #2f5fa5 !important;
+                    background-image: none;
+                }
+.dropdown-content2 a:hover{
+                    background-color:  #090806 !important;
+                    background-image: none;
+                }
+
+                .bg-dark, .navbar-brand {
+                    color: #ffffff !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #000000;
+                }
+                .head-title {
+                    color: #ffffff !important;
+                }
+                .head-tagline {
+                    color: #ffffff;
+                }
+
+                footer.py-5.bg-dark.text-center {
+                    color: #ffffff !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #2563eb !important;
+                }
+
+                .btn-banner-theme {
+                    color: #2f5fa5;
+                    background-color: #ffffff;
+                    border-color: #ffffff;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #2f5fa5;
+                }
+
+                .btn-theme {
+                    color: #ffffff;
+                    background-color: #2f5fa5;
+                    border-color: #2f5fa5;
+                }
+
+                .btn-theme:hover {
+                    color: #2f5fa5;
+                    background-color: #ffffff;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #2f5fa5;
+                }
+
+                .main-heading {
+                    color: #2f5fa5;
+                }
+
+                .card-text {
+                    color: #4f4f4f;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+
+		.article-card-text {
+                    color: #000000 !important;
+                 
+                }
+		.article-card-text * {
+                    color: #000000 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #ffffff;
+                }
+
+                .cards-container .card {
+                    background-color: #ffffff !important;
+                    border: 1px solid #eaeaea !important;
+                }
+
+                .cards-container .card .card-title {
+                    color: #2f5fa5;
+                }
+
+                .cards-container .card .card-text {
+                    color: #000000;
+                }
+                .article-info {
+                    color: #4f4f4f;
+                }
+
+    </style>
+</head>
+
+<body>
+<!-- Responsive navbar-->
+<div class="top-area">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a style="color: inherit; text-decoration: inherit;" href="index.html">
+                    <span class="navbar-brand">
+                        <img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()">
+                    </span>
+                <span class="navbar-brand header-text-color">silkpillow.co.uk</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                    <li class="nav-item {{home_active}}">
+                        <a class="nav-link header-text-color" href="index.html">Home</a>
+                    </li>
+                    <div class="nav-item {{service_active}} dropdown" style="display:">
+                        <button class="header-text-color dropbtn is-mobile">Pages</button>
+                        <a class="nav-link header-text-color dropbtn is-desktop" href="pages.html">Pages</a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-content2">
+                                <li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="uks-favourite-pillow-upgrade-pure-silk-comfort.html">UK’s Favourite Pillow Upgrade: Pure Silk Comfort
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="eco-friendly-luxury-why-silk-is-the-sustainable-sleep-choice.html">Eco-Friendly Luxury: Why Silk is the Sustainable Sleep Choice
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="silk-pillowcases-uk-the-secret-to-healthier-skin-and-hair.html">Silk Pillowcases UK: The Secret to Healthier Skin and Hair
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="how-mulberry-silk-helps-you-sleep-better-naturally.html">How Mulberry Silk Helps You Sleep Better Naturally
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="how-silk-pillowcases-reduce-wrinkles-and-frizz.html">How Silk Pillowcases Reduce Wrinkles and Frizz
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="why-brits-are-switching-to-silk-pillowcases-for-better-sleep.html">Why Brits Are Switching to Silk Pillowcases for Better Sleep
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="are-silk-pillowcases-worth-it-what-british-experts-say.html">Are Silk Pillowcases Worth It? What British Experts Say
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="top-benefits-of-silk-pillowcases-for-sensitive-skin-in-the-uk.html">Top Benefits of Silk Pillowcases for Sensitive Skin in the UK
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="say-goodbye-to-bedhead-with-silk-pillowcases.html">Say Goodbye to Bedhead with Silk Pillowcases
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="the-best-silk-pillowcases-to-buy-in-the-uk-right-now.html">The Best Silk Pillowcases to Buy in the UK Right Now
+                                                                                        <span class="border-menu"></span></a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="nav-item active">
+                        <a class="nav-link header-text-color" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item {{contact_active}}" style="display: ">
+                        <a class="nav-link header-text-color" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-4 mb-2 mb-lg-0" style="display: none !important;">
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg overflow-hidden custom-position">
+        <div class="header-transparent-layer p-5">
+            <h1 class="display-5 text-capitalize fw-bold header-text-color"><span>Latest Blog Posts</span></h1>
+        </div>
+    </nav>
+</div>
+
+<div class="container px-4 px-lg-5 article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="ql-editor p-4 article-card-text" id="sitewide-header">
+            
+        </div>
+    </header>
+    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5 mx-4">
+        <!-- Heading Row-->
+        <div class="col-lg-12 py-lg-2">
+                    <h2 class="main-heading fs-3">silkpillow.co.uk: Latest Blog Posts</h2>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="do-silk-pillowcases-really-help-skin-and-hair.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Do silk pillowcases really help skin and hair?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">To keep silk pillowcases in optimal condition, it is essential to wash them with care. Use a gentle detergent specifically designed for delicate fabrics. Washing in cold water helps maintain the color and integrity of the fibers. Hand washing is ofte......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="do-silk-pillowcases-really-help-skin-and-hair.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="does-sleeping-on-a-silk-pillowcase-really-make-a-difference.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Does sleeping on a silk pillowcase really make a difference?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk pillowcases require specific care to maintain their luster and longevity. Handwashing is often the best method; however, using a gentle cycle in a washing machine is also acceptable if the right precautions are taken. Always opt for a mild deter......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="does-sleeping-on-a-silk-pillowcase-really-make-a-difference.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="which-is-better-for-your-skin-and-hair-silk-or-satin.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Which is better for your skin and hair, silk or satin?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Individuals with sensitive skin or allergies often find that fabric choice profoundly impacts their comfort. Silk is a natural fiber produced by silkworms and is less likely to irritate the skin. It possesses hypoallergenic properties, which can help......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="which-is-better-for-your-skin-and-hair-silk-or-satin.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="whats-the-best-pillowcase-for-skin-and-hair.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What's the best pillowcase for skin and hair?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Selecting the right pillowcase can significantly impact acne-prone skin. Certain materials can either exacerbate breakouts or help maintain skin clarity. Opting for a smooth fabric that minimizes friction is essential. Cotton is a popular choice due ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="whats-the-best-pillowcase-for-skin-and-hair.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="do-silk-pillowcases-stop-bedhead.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Do silk pillowcases stop bedhead?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Taking care of silk pillowcases is essential to maintain their luxurious feel and extend their lifespan. Hand washing is often recommended to prevent damage from machine agitation. If machine washing is necessary, using a gentle cycle with a mild det......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="do-silk-pillowcases-stop-bedhead.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-not-to-do-with-silk-pillowcase.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What not to do with silk pillowcase?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk is a delicate fabric that requires specific care to maintain its luxurious feel and appearance. Fabric softeners are often marketed as agents that enhance softness, but their use on silk can lead to unintended consequences. These products typica......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-not-to-do-with-silk-pillowcase.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="is-blissy-really-better-than-other-silk-pillowcases.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Is blissy really better than other silk pillowcases?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk pillowcases require gentle handling to preserve their luxurious feel and extend their lifespan. Handwashing is often recommended, using cold water and a mild detergent specifically designed for silk or delicate fabrics. If machine washing, a del......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="is-blissy-really-better-than-other-silk-pillowcases.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-highest-rated-silk-pillowcase.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the highest rated silk pillowcase?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">In the realm of luxury bedding, silk pillowcases stand out for their combination of comfort and aesthetic appeal. High-quality options are available from several reputable brands known for their commitment to using 100% mulberry silk. This type of si......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-highest-rated-silk-pillowcase.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-grade-of-silk-is-blissy.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What grade of silk is Blissy?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When it comes to maintaining the quality of Blissy silk, gentle care is essential. Always opt for hand washing with a mild detergent to preserve the fabric's natural sheen. If machine washing is necessary, use a delicate cycle and place silk items in......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-grade-of-silk-is-blissy.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-often-should-you-wash-silk-pillowcases.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How often should you wash silk pillowcases?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When it comes to washing silk pillowcases, choosing the right detergent is crucial for maintaining their quality and longevity. Look for detergents specifically designed for delicate fabrics. These products typically contain milder ingredients that w......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-often-should-you-wash-silk-pillowcases.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="why-switch-to-silk-pillowcase.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Why switch to silk pillowcase?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk pillowcases require gentle care to maintain their luxurious feel and appearance. Hand washing is the preferred method, using cold water and a mild detergent specifically formulated for silk. When washing, avoid wringing or twisting the fabric to......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="why-switch-to-silk-pillowcase.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="is-it-really-better-to-sleep-on-a-silk-pillowcase.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Is it really better to sleep on a silk pillowcase?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk is known for its natural ability to regulate temperature, making it a popular choice for bedding. The fiber’s unique composition allows it to wick moisture away from the body while offering insulation during colder nights. As a result, silk pi......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="is-it-really-better-to-sleep-on-a-silk-pillowcase.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="can-you-buy-blissy-pillowcases-in-the-uk.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Can you buy Blissy pillowcases in the UK?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">To ensure the longevity of Blissy pillowcases, it is advisable to follow specific care guidelines. Washing them in cold water is recommended, as high temperatures can damage the delicate fabric. A gentle cycle with a mild detergent will help preserve......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="can-you-buy-blissy-pillowcases-in-the-uk.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="is-mulberry-or-momme-silk-better.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Is mulberry or momme silk better?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When comparing the prices of mulberry silk and momme silk, several factors come into play. Mulberry silk, known for its high quality, often commands a premium price. This silk type is produced by silkworms that feed exclusively on mulberry leaves, en......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="is-mulberry-or-momme-silk-better.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="do-silk-pillowcases-reduce-frizz.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Do silk pillowcases reduce frizz?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk pillowcases are often seen as a premium option for anyone looking to enhance their sleeping experience. Their prices can vary significantly based on factors like thread count, grade of silk, and brand reputation. Budget-friendly options exist, b......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="do-silk-pillowcases-reduce-frizz.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="are-there-really-benefits-to-silk-pillowcases.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are there really benefits to silk pillowcases?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk and cotton each come with unique properties that cater to different preferences and needs. Silk is known for its smooth texture and gentle touch against the skin. This can lead to reduced friction, which may help in minimizing wrinkles and irrit......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="are-there-really-benefits-to-silk-pillowcases.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="does-silk-pillowcase-really-help-with-wrinkles.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Does silk pillowcase really help with wrinkles?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">To ensure the longevity of a silk pillowcase, proper care is essential. Hand washing is often recommended to maintain the delicate fibers. If machine washing is preferred, using a gentle cycle with a mesh laundry bag is advisable. A mild detergent de......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="does-silk-pillowcase-really-help-with-wrinkles.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="can-you-buy-blissy-pillowcases-in-the-uk.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Can you buy blissy pillowcases in the UK?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk and satin pillowcases have gained popularity for their luxurious feel and skin benefits. Brands like Slip and LilySilk offer high-quality alternatives that are designed to reduce friction on hair and skin. These options come in various colors an......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="can-you-buy-blissy-pillowcases-in-the-uk.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-type-of-silk-is-best-to-sleep-on.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What type of silk is best to sleep on?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk is known for its luxurious feel and natural sheen, but its durability largely depends on the type of silk used. Mulberry silk, for instance, is considered the strongest and most durable variety, making it an excellent choice for bedding. Other t......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-type-of-silk-is-best-to-sleep-on.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-are-the-benefits-of-mulberry-silk.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What are the benefits of mulberry silk?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Choosing mulberry silk is a step towards a more sustainable lifestyle. The process of cultivating mulberry trees requires fewer chemical inputs compared to synthetic fibers. These trees can thrive in a variety of climates, reducing the need for exten......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-are-the-benefits-of-mulberry-silk.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-silk-pillowcase-does-kim-kardashian-use.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What silk pillowcase does Kim Kardashian use?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk pillowcases require special care to maintain their luxurious feel and longevity. Hand washing in cold water with a gentle detergent is recommended for optimal preservation. If machine washing is necessary, a delicate cycle in a mesh laundry bag ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-silk-pillowcase-does-kim-kardashian-use.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="do-silk-pillowcases-actually-make-a-difference.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Do silk pillowcases actually make a difference?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk pillowcases are known for their luxurious feel and delicate appearance. The durability of these pillowcases largely depends on their quality and how they are maintained. High-grade silk, such as mulberry silk, tends to be more resilient and can ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="do-silk-pillowcases-actually-make-a-difference.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="is-mulberry-silk-good-for-sleeping.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Is mulberry silk good for sleeping?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk fabrics are often celebrated for their luxurious feel and beneficial properties, particularly when it comes to hair care. The smooth surface of mulberry silk reduces friction between hair and pillowcases during sleep. This friction can lead to b......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="is-mulberry-silk-good-for-sleeping.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="are-silk-pillowcases-good-for-sensitive-skin.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are silk pillowcases good for sensitive skin?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk pillowcases offer numerous benefits for hair care, making them a popular choice among those looking to maintain healthy locks. The smooth texture of silk reduces friction, which can help prevent tangling and breakage during sleep. Unlike cotton,......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="are-silk-pillowcases-good-for-sensitive-skin.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="why-is-silk-environmentally-friendly.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Why is silk environmentally friendly?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk production is notably efficient in its water usage compared to many other textiles. The process requires significantly less water throughout the cultivation and harvesting stages, which is especially crucial in regions facing water scarcity. Tra......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="why-is-silk-environmentally-friendly.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-downside-of-a-silk-pillowcase.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the downside of a silk pillowcase?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk pillowcases are often celebrated for their luxurious feel and potential benefits for hair and skin. However, their ability to regulate temperature can be a drawback for some users. Silk, while breathable, does not wick away moisture as effective......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-downside-of-a-silk-pillowcase.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="are-silk-pillowcases-really-worth-the-hype.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are silk pillowcases really worth the hype?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Proper care and maintenance are crucial for preserving the quality and longevity of silk pillowcases. Hand washing is often recommended, using cool water and a gentle detergent specifically designed for silk. Machine washing, if necessary, should occ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="are-silk-pillowcases-really-worth-the-hype.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-best-silk-pillowcase-in-the-uk.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the best silk pillowcase in the UK?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk pillowcases offer a luxurious sleeping experience while providing significant benefits for hair health. The smooth, soft surface of silk reduces friction during the night, allowing hair to glide smoothly across the fabric. This decrease in frict......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-best-silk-pillowcase-in-the-uk.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="is-it-good-to-sleep-on-silk-sheets.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Is it good to sleep on silk sheets?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk sheets are known for their luxurious feel and aesthetic appeal, but they also possess remarkable durability when cared for properly. The fibers in silk are naturally strong, allowing sheets made from this material to withstand years of use witho......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="is-it-good-to-sleep-on-silk-sheets.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="is-silk-100-biodegradable.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Is silk 100% biodegradable?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk production begins with the cultivation of silkworms, primarily the Bombyx mori species. These caterpillars thrive on mulberry leaves and undergo a transformative life cycle, eventually spinning cocoons made of a continuous strand of silk. The ha......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="is-silk-100-biodegradable.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <div class="">
+        <div>
+            
+        </div>
+    </div>
+    <div class="pb-5 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</div>
+
+<!-- Footer-->
+
+<footer class="py-5 bg-dark text-center footer-text-color">
+
+    <div class="container text-white">
+        <div class="row  py-lg-3">
+            <div class="col-md-7">
+                <table style="text-align: left">
+                    <tr>
+                        <td width="15%">
+                            <h2>
+                                <a style="color: inherit;text-decoration: auto;" href="index.html"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></a>
+                            </h2>
+                        </td>
+                        <td style="text-align: left" class="footer-text-color">
+                            <h2><a style="color: inherit;text-decoration: auto;" href="index.html">silkpillow.co.uk</a></h2>
+                        </td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-map-marker-alt footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color">109 Lever St, London EC1V 3RQ, United Kingdom,London,london,GB,EC1V 3RQ</td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-phone footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color ">+442036677070</td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-envelope footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color">airoldimarco22@gmail.com</td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <table class="float-start float-md-end" style="margin-left: 40px;">
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="terms.html">Terms of Use</a></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="privacy.html">Privacy Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="text-white footer-text-color" style="text-decoration: none" href="sitemap.html">Sitemap</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: "><a class="text-white footer-text-color" style="text-decoration: none" href="contact.html">Contact Us</a></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <ul class="mt-3 mb-3" style="display: none !important">
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class=" footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color text-white  mr-3" target="_blank" href=""><i class="fa-2x icon-social-youtube"></i></a>
+        </li>
+    </ul>
+
+    <div class="text-white">
+        <hr/>
+    </div>
+    <div class="container">
+        <p class="m-0 text-center">Copyright &copy; silkpillow.co.uk. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px; display: none">
+            <iframe src="" frameborder="0" style="border:0; " allowfullscreen></iframe>
+        </div>
+        
+    </div>
+</div>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="home/js/scripts.js"></script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+    let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+<script>
+    document.getElementsByTagName('head')[0].innerHTML = document.getElementsByTagName('head')[0].innerHTML.replace('REPLACE_WITH_URL', window.location.href);
+</script></body>
+
+</html>

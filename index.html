@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>silkpillow.co.uk</title>
+    <link rel="canonical" href="index.html" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="silkpillow.co.uk" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon-->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="home/css/styles.css" rel="stylesheet" /> 
+    <style>
+        .bg-header {
+        background-color: rgba(0, 0, 0, 0.6) !important;
+        }
+
+        .bg-footer {
+            --bs-bg-opacity: 1;
+        background-image: linear-gradient( #000000, #000000) !important;
+        }
+
+        .header-text-color {
+        color: #ffffff ;
+        }
+
+        .footer-text-color {
+        color: #ffffff ;
+        }
+
+        .footer-text-color .navbar-brand {
+        color: #ffffff ;
+        }
+
+        .navbar-nav .active {
+        border-bottom: solid 1px #ffffff !important;
+        }
+
+        .top-area {
+            position: relative;
+            opacity: 1;
+            height: 400px;
+            /* background-color: rgba(0, 0, 0, 0.5) !important; */
+        }
+
+        .transparent-layer {
+            position: absolute;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5) !important;
+        }
+
+        .top-area::before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: url(banner_image.png);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+        }
+
+        .top-area>div {
+            position: relative;
+        }
+
+        .head-title {
+            font-size: calc(1.75rem + 1.5vw);
+            font-weight: bolder;
+            color: #fff;
+        }
+
+        .head-tagline {
+            font-size: calc(.5rem + 1.5vw);
+            color: #fff;
+        }
+
+        .header-contents {
+            margin: 0 auto;
+            text-align: center;
+        }
+        body {
+                    background-color: #f1f6f9;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(47, 95 ,165, 0.6) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #4f77b1 !important;
+                    color:  #ffffff !important;
+                    border: 1px solid #4f77b1 !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #2f5fa5 !important;
+                    background-image: none;
+                }
+.dropdown-content2 a:hover{
+                    background-color:  #090806 !important;
+                    background-image: none;
+                }
+
+                .bg-dark, .navbar-brand {
+                    color: #ffffff !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #000000;
+                }
+                .head-title {
+                    color: #ffffff !important;
+                }
+                .head-tagline {
+                    color: #ffffff;
+                }
+
+                footer.py-5.bg-dark.text-center {
+                    color: #ffffff !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #2563eb !important;
+                }
+
+                .btn-banner-theme {
+                    color: #2f5fa5;
+                    background-color: #ffffff;
+                    border-color: #ffffff;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #2f5fa5;
+                }
+
+                .btn-theme {
+                    color: #ffffff;
+                    background-color: #2f5fa5;
+                    border-color: #2f5fa5;
+                }
+
+                .btn-theme:hover {
+                    color: #2f5fa5;
+                    background-color: #ffffff;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #2f5fa5;
+                }
+
+                .main-heading {
+                    color: #2f5fa5;
+                }
+
+                .card-text {
+                    color: #4f4f4f;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+
+		.article-card-text {
+                    color: #000000 !important;
+                 
+                }
+		.article-card-text * {
+                    color: #000000 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #ffffff;
+                }
+
+                .cards-container .card {
+                    background-color: #ffffff !important;
+                    border: 1px solid #eaeaea !important;
+                }
+
+                .cards-container .card .card-title {
+                    color: #2f5fa5;
+                }
+
+                .cards-container .card .card-text {
+                    color: #000000;
+                }
+                .article-info {
+                    color: #4f4f4f;
+                }
+    </style>
+</head>
+
+<body>
+<!-- Responsive navbar-->
+<div class="top-area">
+    <div class="transparent-layer">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-header">
+            <div class="container px-5">
+                <a style="color: inherit; text-decoration: inherit;" href="index.html">
+                        <span class="navbar-brand">
+                        <img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()">
+                    </span>
+                    <span class="navbar-brand header-text-color">silkpillow.co.uk</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                        <li class="nav-item {{home_active}}">
+                            <a class="nav-link header-text-color" href="index.html">Home</a>
+                        </li>
+                        <div class="nav-item {{service_active}} dropdown" style="display:">
+                            <button class="header-text-color dropbtn is-mobile">Pages</button>
+                            <a class="nav-link header-text-color dropbtn is-desktop" href="pages.html">Pages</a>
+                            <div class="dropdown-content">
+                                <div class="dropdown-content2">
+                                    <li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="uks-favourite-pillow-upgrade-pure-silk-comfort.html">UK’s Favourite Pillow Upgrade: Pure Silk Comfort
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="eco-friendly-luxury-why-silk-is-the-sustainable-sleep-choice.html">Eco-Friendly Luxury: Why Silk is the Sustainable Sleep Choice
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="silk-pillowcases-uk-the-secret-to-healthier-skin-and-hair.html">Silk Pillowcases UK: The Secret to Healthier Skin and Hair
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="how-mulberry-silk-helps-you-sleep-better-naturally.html">How Mulberry Silk Helps You Sleep Better Naturally
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="how-silk-pillowcases-reduce-wrinkles-and-frizz.html">How Silk Pillowcases Reduce Wrinkles and Frizz
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="why-brits-are-switching-to-silk-pillowcases-for-better-sleep.html">Why Brits Are Switching to Silk Pillowcases for Better Sleep
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="are-silk-pillowcases-worth-it-what-british-experts-say.html">Are Silk Pillowcases Worth It? What British Experts Say
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="top-benefits-of-silk-pillowcases-for-sensitive-skin-in-the-uk.html">Top Benefits of Silk Pillowcases for Sensitive Skin in the UK
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="say-goodbye-to-bedhead-with-silk-pillowcases.html">Say Goodbye to Bedhead with Silk Pillowcases
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="the-best-silk-pillowcases-to-buy-in-the-uk-right-now.html">The Best Silk Pillowcases to Buy in the UK Right Now
+                                                                                        <span class="border-menu"></span></a></li>
+                                </div>
+                            </div>
+                        </div>
+                        <li class="nav-item {{blog_active}}">
+                            <a class="nav-link header-text-color" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item {{contact_active}}" style="display: ">
+                            <a class="nav-link header-text-color" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-4 mb-2 mb-lg-0" style="display: none !important;">
+                        <li class="nav-item" style="display: none">
+                            <a class="nav-link header-text-color" target="_blank" href="">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="display: none">
+                            <a class="nav-link header-text-color" target="_blank" href="">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="display: none">
+                            <a class="nav-link header-text-color" target="_blank" href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="display: none">
+                            <a class="nav-link header-text-color" target="_blank" href="">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="display: none">
+                            <a class="nav-link header-text-color" target="_blank" href="">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- Heading Row-->
+        <div class="gx-0 align-items-center py-lg-6">
+            <div class="header-contents">
+                <h1 class="head-title">silkpillow.co.uk</h1>
+                <h4 class="head-tagline">109 Lever St, London EC1V 3RQ, United Kingdom,London,london,GB,EC1V 3RQ</h4>
+            </div>
+            <div class="header-contents">
+                <a class="btn btn-banner-theme btn-md mt-2" style="display: " target="_blank" href="tel:+442036677070">Call Now</a>
+                <a class="btn btn-banner-theme btn-md mt-2" style="display: " target="_blank" href="mailto:airoldimarco22@gmail.com">Email Now</a>
+                <button id="myBtn" class="btn btn-banner-theme btn-md mt-2" style="display: none">Get Directions</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="ql-editor p-4 article-card-text" id="sitewide-header">
+            
+        </div>
+    </header>
+
+    <div class="row gx-4 gx-lg-5 align-items-center pt-lg-5 card-text" style=" display: none ">
+        <div class="col-lg-3">
+            <h2 class="font-weight-light">Working Hours</h2>
+        </div>
+        <div class="col-lg-5">
+            <h5>Today: <span class="text-primary today_hours main-heading">{{today_time}}</span></h5>
+        </div>
+    </div>
+    <div class="row gx-4 gx-lg-5 align-items-center card-text py-lg-4" style=" display: none ">
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Mon:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{monday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Tue:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{tuseday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Wed:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{wednesday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Thur:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{thursday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Fri:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{friday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Sat:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{staturday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Sun:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{sunday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="py-2 border-bottom mb-2" style="display: none">
+        <div class="ql-editor article-card-text">
+            
+        </div>
+    </div>
+
+    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5" style="display:">
+        <div class="col-lg-12 py-lg-2">
+            <h3 class="main-heading">Pages</h3>
+        </div>
+
+        <div class="col-lg-4">
+                <a href="uks-favourite-pillow-upgrade-pure-silk-comfort.html"  style="text-decoration: none;color: inherit;" >
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="https://images.pexels.com/photos/6541091/pexels-photo-6541091.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200?key=78ylmm" alt="UK’s Favourite Pillow Upgrade: Pure Silk Comfort" />
+                </a>
+            </div>
+                <div class="col-lg-8">
+                    <a href="uks-favourite-pillow-upgrade-pure-silk-comfort.html"  style="text-decoration: none;color: inherit;">
+                        <div class="d-flex align-items-center title-box">
+                            <h2 class="card-title">UK’s Favourite Pillow Upgrade: Pure Silk Comfort</h2>
+                        </div>
+                        <p class="card-text py-lg-2">Silk pillowcases have gained immense popularity for their luxurious feel and numerous benefits for skin and hair. The Best Silk Pillowcases to Buy in the UK Right Now offer a range of options, from raw silk to the finest mulberry silk. Choosing a sil......
+                            <a style="text-decoration:none" href="uks-favourite-pillow-upgrade-pure-silk-comfort.html" class="text-theme">Read More</a>
+                        </p>
+
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <hr/>
+                </div><div class="col-lg-4">
+                <a href="eco-friendly-luxury-why-silk-is-the-sustainable-sleep-choice.html"  style="text-decoration: none;color: inherit;" >
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="https://images.pexels.com/photos/1482177/pexels-photo-1482177.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200?key=mMRhJ0" alt="Eco-Friendly Luxury: Why Silk is the Sustainable Sleep Choice" />
+                </a>
+            </div>
+                <div class="col-lg-8">
+                    <a href="eco-friendly-luxury-why-silk-is-the-sustainable-sleep-choice.html"  style="text-decoration: none;color: inherit;">
+                        <div class="d-flex align-items-center title-box">
+                            <h2 class="card-title">Eco-Friendly Luxury: Why Silk is the Sustainable Sleep Choice</h2>
+                        </div>
+                        <p class="card-text py-lg-2">UK designers are increasingly drawn to Moroccan Berber carpets for their rich history and exceptional craftsmanship. These unique berber rugs are crafted by the Berber people of Morocco, reflecting a deep connection to Moroccan culture and artistic h......
+                            <a style="text-decoration:none" href="eco-friendly-luxury-why-silk-is-the-sustainable-sleep-choice.html" class="text-theme">Read More</a>
+                        </p>
+
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <hr/>
+                </div><div class="col-lg-4">
+                <a href="silk-pillowcases-uk-the-secret-to-healthier-skin-and-hair.html"  style="text-decoration: none;color: inherit;" >
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="https://images.pexels.com/photos/3765109/pexels-photo-3765109.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200?key=cECgZb" alt="Silk Pillowcases UK: The Secret to Healthier Skin and Hair" />
+                </a>
+            </div>
+                <div class="col-lg-8">
+                    <a href="silk-pillowcases-uk-the-secret-to-healthier-skin-and-hair.html"  style="text-decoration: none;color: inherit;">
+                        <div class="d-flex align-items-center title-box">
+                            <h2 class="card-title">Silk Pillowcases UK: The Secret to Healthier Skin and Hair</h2>
+                        </div>
+                        <p class="card-text py-lg-2">Silk Pillowcases UK: The secret to healthier skin and hair lies in the unique properties of silk fibers. Unlike traditional cotton and polyester pillowcases, silk offers a smoother surface that reduces friction on the skin and hair. This reduces the ......
+                            <a style="text-decoration:none" href="silk-pillowcases-uk-the-secret-to-healthier-skin-and-hair.html" class="text-theme">Read More</a>
+                        </p>
+
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <hr/>
+                </div><div class="col-lg-4">
+                <a href="how-mulberry-silk-helps-you-sleep-better-naturally.html"  style="text-decoration: none;color: inherit;" >
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="https://images.pexels.com/photos/7629856/pexels-photo-7629856.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200?key=J9pvIB" alt="How Mulberry Silk Helps You Sleep Better Naturally" />
+                </a>
+            </div>
+                <div class="col-lg-8">
+                    <a href="how-mulberry-silk-helps-you-sleep-better-naturally.html"  style="text-decoration: none;color: inherit;">
+                        <div class="d-flex align-items-center title-box">
+                            <h2 class="card-title">How Mulberry Silk Helps You Sleep Better Naturally</h2>
+                        </div>
+                        <p class="card-text py-lg-2">Mulberry silk, derived from the silkworms that feed on mulberry trees, presents numerous benefits that contribute to a better night's sleep. The natural, luxurious feel of silk fabrics enhances comfort, making it an ideal choice for sleepwear and bed......
+                            <a style="text-decoration:none" href="how-mulberry-silk-helps-you-sleep-better-naturally.html" class="text-theme">Read More</a>
+                        </p>
+
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <hr/>
+                </div>
+
+        <div class="col-md-12">
+            <a href="pages.html" style="text-decoration: none">
+                <div class="all-article-link" style="padding-top:20px;padding-bottom:20px;border: 1px solid #bdbdbd; border-radius: 3px; height: 70px; text-align:center">
+                    <h4 class="">View All Pages</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5 cards-container">
+        <div class="col-lg-12 py-lg-2">
+            <h3 class="font-weight-light main-heading">silkpillow.co.uk: Latest Blog Posts</h3>
+        </div>
+
+
+        <div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="do-silk-pillowcases-really-help-skin-and-hair.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Do silk pillowcases really help skin and hair?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">To keep silk pillowcases in optimal condition, it is essential to wash them with care. Use a gentle detergent specifically designed for delicate fabrics. Washing in cold water helps maintain the color and integrity of the fibers. Hand washing is ofte......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="do-silk-pillowcases-really-help-skin-and-hair.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="does-sleeping-on-a-silk-pillowcase-really-make-a-difference.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Does sleeping on a silk pillowcase really make a difference?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk pillowcases require specific care to maintain their luster and longevity. Handwashing is often the best method; however, using a gentle cycle in a washing machine is also acceptable if the right precautions are taken. Always opt for a mild deter......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="does-sleeping-on-a-silk-pillowcase-really-make-a-difference.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="which-is-better-for-your-skin-and-hair-silk-or-satin.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Which is better for your skin and hair, silk or satin?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Individuals with sensitive skin or allergies often find that fabric choice profoundly impacts their comfort. Silk is a natural fiber produced by silkworms and is less likely to irritate the skin. It possesses hypoallergenic properties, which can help......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="which-is-better-for-your-skin-and-hair-silk-or-satin.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="whats-the-best-pillowcase-for-skin-and-hair.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-26</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Ciao Airoldi</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What's the best pillowcase for skin and hair?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Selecting the right pillowcase can significantly impact acne-prone skin. Certain materials can either exacerbate breakouts or help maintain skin clarity. Opting for a smooth fabric that minimizes friction is essential. Cotton is a popular choice due ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="whats-the-best-pillowcase-for-skin-and-hair.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+        <div class="col-md-12">
+            <a href="blog.html" style="text-decoration: none">
+                <div class="all-article-link" style="padding-top:20px;padding-bottom:20px;border: 1px solid #bdbdbd; border-radius: 3px; height: 70px; text-align:center">
+                    <h4 class="">View All Blog Posts</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="ql-editor mb-4 article-card-text" style="display:none">
+        
+    </div>
+    <div class="pb-5 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px; display: none">
+                <iframe src="" frameborder="0" style="border:0; " allowfullscreen></iframe>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footer-->
+
+<footer class="py-5 bg-dark text-center ">
+
+    <div class="container">
+        <div class="row  py-lg-3">
+            <div class="col-md-7">
+                <table style="text-align: left">
+                    <tr>
+                        <td width="15%">
+                            <h2>
+                                <a style="color: inherit;text-decoration: auto;" href="index.html"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></a>
+                            </h2>
+                        </td>
+                        <td style="text-align: left" class="">
+                            <h2><a style="text-decoration: auto;" href="index.html">silkpillow.co.uk</a></h2>
+                        </td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-map-marker-alt "></i></td>
+                        <td style="text-align: left" class="">109 Lever St, London EC1V 3RQ, United Kingdom,London,london,GB,EC1V 3RQ</td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-phone "></i></td>
+                        <td style="text-align: left" class=" ">+442036677070</td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-envelope"></i></td>
+                        <td style="text-align: left" class="">airoldimarco22@gmail.com</td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <table class="float-start float-md-end" style="margin-left: 40px;">
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="" style="text-decoration: none" href="terms.html">Terms of Use</a></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="" style="text-decoration: none" href="privacy.html">Privacy Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="" style="text-decoration: none" href="sitemap.html">Sitemap</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: "><a class="" style="text-decoration: none" href="contact.html">Contact Us</a></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <ul class="mt-3 mb-3" style="display: none !important">
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class=" mr-3" target="_blank" href=""><i class="fa-2x icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class=" mr-3" target="_blank" href=""><i class="fa-2x icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="   mr-3" target="_blank" href=""><i class="fa-2x icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class=" mr-3" target="_blank" href=""><i class="fa-2x icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="  mr-3" target="_blank" href=""><i class="fa-2x icon-social-youtube"></i></a>
+        </li>
+    </ul>
+
+    <div class="">
+        <hr/>
+    </div>
+    <div class="container">
+        <p class="m-0 text-center ">Copyright &copy; silkpillow.co.uk. All Rights Reserved.</p>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="home/js/scripts.js"></script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+    let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+</body>
+
+</html>
